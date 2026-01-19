@@ -7,9 +7,9 @@ export default function Header() {
         {/* Logo */}
         <div className="font-montserrat font-extrabold text-[36px] tracking-[-0.5px] text-white flex items-baseline leading-none">
           SH
-          <span className="relative inline-block w-[20px] text-center">
-            <span className="absolute -top-[11px] left-1/2 -translate-x-1/2 w-[10px] h-[10px] rounded-full bg-[#FA982F]"></span>
-            i
+          <span className="relative inline-flex flex-col items-center mx-[2px]">
+            <span className="w-[10px] h-[10px] rounded-full bg-[#FA982F] mb-[3px]"></span>
+            <span className="w-[6px] h-[26px] bg-white"></span>
           </span>
           FT
         </div>
