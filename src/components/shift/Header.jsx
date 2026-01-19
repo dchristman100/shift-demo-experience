@@ -8,7 +8,7 @@ export default function Header() {
         <div className="font-montserrat font-extrabold text-[36px] tracking-[-0.5px] text-white flex items-start leading-none select-none">
           SH
           <span className="relative inline-block" style={{ fontFeatureSettings: '"case" 1' }}>
-            <span className="absolute -top-[2px] left-1/2 -translate-x-1/2 w-[10px] h-[10px] rounded-full bg-[#FA982F]"></span>
+            <span className="absolute top-0 left-1/2 -translate-x-1/2 w-[10px] h-[10px] rounded-full bg-[#FA982F]"></span>
             <span className="text-transparent bg-clip-text">i</span>
             <span className="absolute inset-0 overflow-hidden" style={{ color: 'white', clipPath: 'inset(40% 0 0 0)' }}>i</span>
           </span>
