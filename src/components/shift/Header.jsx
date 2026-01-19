@@ -5,15 +5,11 @@ export default function Header() {
     <header className="sticky top-0 z-50 h-20 bg-[#0D0F33]/95 backdrop-blur-md border-b-[3px] border-[#F54A48]">
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
         {/* Logo */}
-        <div className="font-montserrat font-extrabold text-4xl tracking-tight text-white flex items-baseline">
-          SH
-          <span className="relative inline-block mx-[1px]">
-            <span className="absolute -top-[14px] left-1/2 -translate-x-1/2 w-[11px] h-[11px] rounded-full bg-[#FA982F]"></span>
-            <span className="invisible">i</span>
-            <span className="absolute inset-0">i</span>
-          </span>
-          FT
-        </div>
+        <img 
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696d870db950ef67250e12a0/68b3121c0_ShiFtFavicon.png"
+          alt="ShiFT"
+          className="h-10 w-auto"
+        />
         
         {/* Live Demo Badge */}
         <div className="gradient-coral-orange px-5 py-2 rounded-md">
