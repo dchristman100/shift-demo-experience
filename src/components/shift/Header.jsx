@@ -5,13 +5,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 h-20 bg-[#0D0F33]/95 backdrop-blur-md border-b-[3px] border-[#F54A48]">
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
         {/* Logo */}
-        <div className="font-montserrat font-extrabold text-4xl tracking-tight flex items-center">
-          <span className="text-white">SH</span>
-          <span className="relative inline-flex flex-col items-center mx-0.5">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#FA982F] mb-0.5"></span>
-            <span className="text-white">i</span>
+        <div className="font-montserrat font-extrabold text-4xl tracking-tight text-white flex items-baseline">
+          SH
+          <span className="relative inline-block mx-[1px]">
+            <span className="absolute -top-[14px] left-1/2 -translate-x-1/2 w-[11px] h-[11px] rounded-full bg-[#FA982F]"></span>
+            <span className="invisible">i</span>
+            <span className="absolute inset-0">i</span>
           </span>
-          <span className="text-white">FT</span>
+          FT
         </div>
         
         {/* Live Demo Badge */}
