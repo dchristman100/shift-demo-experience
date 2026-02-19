@@ -27,7 +27,7 @@ export default function HeroSection() {
         
         {/* Main Heading */}
         <h1 className="font-montserrat font-black text-4xl md:text-5xl lg:text-[56px] text-white mb-5 tracking-[-2px] leading-tight">
-          Experience <span className="gradient-text">ShiFt</span> Live
+          {headline}
         </h1>
         
         {/* Subtitle */}
