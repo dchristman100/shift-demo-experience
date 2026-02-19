@@ -1,6 +1,14 @@
 import React from 'react';
 
 export default function HeroSection() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const fromCalculator = urlParams.get('from') === 'calculator';
+  const totalGap = urlParams.get('total_gap');
+
+  const headline = fromCalculator && totalGap
+    ? `You're losing $${totalGap}/month across at least 3 revenue leaks. Here's how ShiFt plugs all 7.`
+    : `See How ShiFt Plugs the 7 Revenue Leaks That Cost Contractors $30K–$100K/Month`;
+
   const stats = [
     { value: "24/7", label: "Always On" },
     { value: "<1s", label: "Connection Time" },
